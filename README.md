@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Komalpreet (@komalpreet10)
+# 👋 Hi, I'm Komalpreet
 
 ## 👀 About Me:
 I am currently pursuing a **Master of Science in Computer Science** with a focus on **Artificial Intelligence and Machine Learning** at **Woolf**, along with a **Post Degree in Data Analytics** at **Langara College, Canada**, with a CGPA of 3.92. I hold a **B.Tech in Electronics & Communications Engineering** from **Lovely Professional University, India**.
