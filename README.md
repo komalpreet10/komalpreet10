@@ -1,7 +1,7 @@
 # 👋 Hi, I'm Komalpreet
 
 ## 👀 About Me:
-I am currently pursuing a *Post Degree in Data Analytics** at Langara College, Canada**, with a CGPA of 3.92. I hold a **B.Tech in Electronics & Communications Engineering** from **Lovely Professional University, India**.
+I am currently pursuing a Post Degree in Data Analytics at Langara College, Canada**, with a CGPA of 3.92. I hold a **B.Tech in Electronics & Communications Engineering** from **Lovely Professional University, India**.
 
 I have around **3 years of professional experience**, specializing in **data science**, **machine learning**, and **data engineering**. I’ve worked as a **Software Engineer** and **Data Analyst** at **Merkle** (client: The Home Depot), and as an **Associate Consultant** at **Antal International**.
 
