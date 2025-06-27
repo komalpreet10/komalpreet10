@@ -1,9 +1,9 @@
 # 👋 Hi, I'm Komalpreet
 
 ## 👀 About Me:
-I am currently pursuing a Masters of Data Science at the University of British Columbia. I hold a **Postgraduate specialization in data analytics from langara college, Canada and  **B.Tech in Electronics & Communications Engineering** from **Lovely Professional University, India**.
+I am currently pursuing a Master of Data Science at the University of British Columbia. I also hold a postgraduate specialization in Data Analytics from Langara College, Canada, and a B.Tech in Electronics and Communication Engineering from Lovely Professional University, India.
 
-I have around **3 years of professional experience**, specializing in **data science**, **machine learning**, and **data engineering**. I’ve worked as a **Software Engineer** and **Data Analyst** at **Merkle** (client: The Home Depot), and as an **Associate Consultant** at **Antal International**.
+I bring approximately 3 years of professional experience in data science, machine learning, and data engineering. Previously, I’ve worked as a Software Engineer and Data Analyst at Merkle (client: The Home Depot), and as an Associate Consultant at Antal International.
 
 ## 💼 Work Experience:
 - **Senior Software Engineer | Merkle (Client: The Home Depot)**  
