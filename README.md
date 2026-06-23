@@ -15,7 +15,7 @@ Capstone project developed in collaboration with BC Cancer and UBC. Built a retr
 Built a product search and recommendation system using over 112,000 Amazon products and 701,000 customer reviews. Implemented BM25, semantic search with FAISS, hybrid retrieval, retrieval evaluation metrics, and a RAG pipeline for grounded product recommendations.
 
 ### 💳 Credit Default Prediction
-Developed an end-to-end machine learning pipeline for predicting credit card default risk using the UCI Credit Card dataset. The project includes preprocessing, feature engineering, model training with LightGBM, evaluation, API deployment using FastAPI, and containerization with Docker.
+Built an end-to-end credit default prediction pipeline using the American Express dataset, including feature engineering, LightGBM/XGBoost modeling, MLflow tracking, SHAP explainability, and FastAPI deployment.
 
 ### 📈 M5 Forecasting
 Built demand forecasting models on the M5 forecasting dataset using feature engineering and gradient boosting methods to predict future sales patterns at scale.
