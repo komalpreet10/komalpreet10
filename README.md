@@ -13,7 +13,7 @@ My interests are in **machine learning, MLOps, applied AI, and data engineering*
 ---
 
 ### 🎗️ BC Cancer Exercise Oncology Chatbot
-**Tools:** Python, LangChain, LangGraph, AWS Bedrock (Llama 3.3 70B), ChromaDB, Groq, RAGAS, Docker, AWS ECS Fargate, CloudFormation, Streamlit
+**Tools:** Python, LangChain, LangGraph, AWS Bedrock (Llama 3.3 70B), ChromaDB, Groq, RAGAS, Docker,CI/CD
 
 Capstone project developed in collaboration with **BC Cancer** and **UBC**, building an AI-powered exercise coaching assistant grounded in clinical exercise oncology resources.
 
