@@ -2,7 +2,7 @@
 
 I'm a **Master of Data Science (Computational Linguistics)** graduate from the **University of British Columbia (UBC)**, with approximately 3 years of industry experience building data pipelines, analytics solutions, and machine learning systems for Fortune 500 clients.
 
-Previously I worked as a **Senior Software Engineer (Data Science)** at Merkle, supporting analytics and data engineering initiatives for **The Home Depot USA**. My work spanned building distributed feature engineering pipelines, automated reporting workflows, forecasting and anomaly detection systems, and large-scale customer analytics using Python, SQL, BigQuery, PySpark, and Airflow on GCP.
+Previously I worked as a **Senior Software Engineer (Data Science)** at Merkle, supporting analytics and data engineering initiatives for **The Home Depot USA**. My work spanned building distributed feature engineering pipelines, automated reporting workflows and large-scale customer analytics using Python, SQL, BigQuery, PySpark, and Airflow on GCP.
 
 My interests are in **machine learning, MLOps, applied AI, and data engineering** — building systems that combine statistical rigour, scalable infrastructure, and real-world business impact.
 
