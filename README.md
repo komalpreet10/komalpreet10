@@ -64,8 +64,10 @@ Demand forecasting pipeline built on the **M5 Forecasting competition dataset** 
 
 Security research project targeting fine-tuned LLMs and Vision-Language Models (VLMs) to assess privacy vulnerabilities in model training data.
 
-- Implemented **zlib entropy-based membership inference attacks** on fine-tuned LLMs, achieving ensemble **AUC 0.8267**
-- Applied **loss-based set-level inference with temperature scaling** on CLIP VLMs, achieving **AUC 0.78**
+- Investigated membership inference attacks on fine-tuned LLMs and VLMs using loss-based and entropy-based approaches
+- Developed EM-MIAs ensemble using XGBoost combining LOSS, zlib, Min-k%, and reference model features with 5-fold CV,achieving AUC 0.83 on clinical text data
+- Applied CLIP-based image-text alignment for VLM membership inference, achieving AUC 0.78
+- Conducted experiments on 50K+ samples and evaluated using ROC-AUC and TPR@FPR metrics across text and image-caption datasets
 
 ---
 
