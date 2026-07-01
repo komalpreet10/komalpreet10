@@ -8,7 +8,7 @@ My interests are in **machine learning, MLOps, applied AI, and data engineering*
 
 ---
 
-## 🚀 Featured Projects
+## Projects
 
 ---
 
@@ -30,10 +30,10 @@ Capstone project developed in collaboration with **BC Cancer** and **UBC**, buil
 
 End-to-end credit default prediction pipeline built on GCP, predicting the probability of customer default using anonymized behavioral credit card data from the **Kaggle AmEx competition**.
 
-- Designed and deployed a distributed feature engineering pipeline on **Dataproc Serverless** using **PySpark**, generating **3,400+ features** per customer across delinquency, spend, payment, balance, and risk variable families — applying 22 statistical, temporal, and behavioral aggregations per numeric column (mean, std, min, max, median, first, last, 3-month/6-month rolling windows, month-to-month diffs) and 3 aggregations per categorical column
-- Optimized **LightGBM** via **Optuna** (100 trials, TPE sampler, MedianPruner, 5-fold stratified CV) with `scale_pos_weight` for class imbalance, targeting **PR-AUC** as the primary objective given the ~3.5% default rate
-- Implemented modular **Vertex AI Pipeline** components for feature selection via cumulative gain thresholding, model promotion gating, and GCS artifact versioning; tracked experiments via **Vertex AI Experiments** and **MLflow**
-- Integrated **SHAP** for per-feature model explainability, calibration curves for probability reliability assessment, and **PSI** to assess potential feature drift in production
+- Designed and deployed an end-to-end credit default prediction pipeline on GCP, orchestrating distributed feature engineering, hyperparameter tuning, model training, and real-time inference across monthly statement cycles.
+ temporal, and behavioral aggregations per numeric column (mean, std, min, max, median, first, last, 3-month/6-month rolling windows, month-to-month diffs) and 3 aggregations per categorical column
+- Engineered 22+ behavioral, temporal, and statistical aggregations across delinquency, spend, payment, balance, and risk variables; optimized a LightGBM model via Optuna with stratified cross-validation, achieving a 0.959 ROC-AUC and 0.894 PR-AUC on imbalanced data.<img width="468" height="52" alt="image" src="https://github.com/user-attachments/assets/23768da2-acf3-48f6-9bb5-c94e83e6dd05" /
+- Integrated SHAP for model explainability and PSI to assess potential feature drift in production
 - Built a three-tier real-time inference pipeline using **Redis** (Memorystore) as an online feature store, **BigQuery** as a fallback lookup, and **Vertex AI Endpoint** for model serving, with streaming feature updates via **Pub/Sub** and **Dataflow** on each statement cycle close
 
 ---
