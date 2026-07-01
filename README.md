@@ -31,7 +31,7 @@ Capstone project developed in collaboration with **BC Cancer** and **UBC**, buil
 End-to-end credit default prediction pipeline built on GCP, predicting the probability of customer default using anonymized behavioral credit card data from the **Kaggle AmEx competition**.
 
 - Designed and deployed an end-to-end credit default prediction pipeline on GCP, orchestrating distributed feature engineering, hyperparameter tuning, model training, and real-time inference across monthly statement cycles.
-- Engineered 22+ behavioral, temporal, and statistical aggregations across delinquency, spend, payment, balance, and risk variables; optimized a LightGBM model via Optuna with stratified cross-validation, achieving a 0.959 ROC-AUC and 0.894 PR-AUC on imbalanced data.<img width="468" height="52" alt="image" src="https://github.com/user-attachments/assets/23768da2-acf3-48f6-9bb5-c94e83e6dd05" /
+- Engineered 22+ behavioral, temporal, and statistical aggregations across delinquency, spend, payment, balance, and risk variables; optimized a LightGBM model via Optuna with stratified cross-validation, achieving a 0.959 ROC-AUC and 0.894 PR-AUC on imbalanced data.
 - Integrated SHAP for model explainability and PSI to assess potential feature drift in production
 - Built a three-tier real-time inference pipeline using **Redis** (Memorystore) as an online feature store, **BigQuery** as a fallback lookup, and **Vertex AI Endpoint** for model serving, with streaming feature updates via **Pub/Sub** and **Dataflow** on each statement cycle close
 
