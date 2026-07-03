@@ -39,12 +39,12 @@ End-to-end credit default prediction pipeline built on GCP, predicting the proba
 
 ---
 
-### 🔧 Transformer From Scratch (Encoder + Decoder)
+### Transformer From Scratch (Encoder + Decoder)
 **Tools:** Python, PyTorch
 
 🔗 [GitHub Repo](https://github.com/komalpreet10/pytorch-transformer-from-scratch)
 
-Implementation of the Transformer architecture ("Attention Is All You Need") built entirely from raw PyTorch — no `nn.Transformer`, no pretrained models — to demonstrate deep architectural understanding beyond high-level library usage.
+Implementation of the Transformer architecture ("Attention Is All You Need") built entirely from raw PyTorch.
 
 - Implemented **multi-head self-attention**, sinusoidal **positional encoding**, and position-wise feed-forward layers from scratch, with a shared core reused across both encoder and decoder variants
 - Built an **encoder-only (BERT-style)** model with bidirectional attention for text classification on **AG News** (4-class, 120K articles), achieving **91.3% validation accuracy** with a custom word-level tokenizer built from scratch
