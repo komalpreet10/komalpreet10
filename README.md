@@ -103,5 +103,5 @@ Security research project targeting fine-tuned LLMs and Vision-Language Models (
 ## 📬 Connect
 
 - 📧 Email: [komalubc@gmail.com](mailto:komalubc@gmail.com)
-- 🔗 LinkedIn: [linkedin.com/in/komalpreet-kaur-28b3231a0](https://www.linkedin.com/in/komalpreet-kaur-28b3231a0/)
+- 🔗 LinkedIn: [linkedin.com/in/komalpreet-28b3231a0](https://www.linkedin.com/in/komalpreet-kaur-28b3231a0/)
 - 🌐 Portfolio: [komalpreet-portfolio-lac.vercel.app](https://komalpreet-portfolio-lac.vercel.app)
