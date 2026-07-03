@@ -28,6 +28,8 @@ Capstone project developed in collaboration with **BC Cancer** and **UBC**, buil
 ### 💳 American Express Credit Default Prediction
 **Tools:** Python, PySpark, Dataproc Serverless, BigQuery, Vertex AI (Pipelines, Endpoint, Model Registry, Experiments), LightGBM, XGBoost, Optuna, MLflow, Redis (Memorystore), Pub/Sub, Dataflow (Apache Beam), SHAP, GCS
 
+🔗 [GitHub Repo](https://github.com/komalpreet10/amex-credit-default-prediction)
+
 End-to-end credit default prediction pipeline built on GCP, predicting the probability of customer default using anonymized behavioral credit card data from the **Kaggle AmEx competition**.
 
 - Designed and deployed an end-to-end credit default prediction pipeline on GCP, orchestrating distributed feature engineering, hyperparameter tuning, model training, and real-time inference across monthly statement cycles.
@@ -40,6 +42,8 @@ End-to-end credit default prediction pipeline built on GCP, predicting the proba
 ### 🛒 Amazon Product Query Assistant
 **Tools:** Python, BM25 (rank-bm25), FAISS, Sentence Transformers, OpenAI GPT-4o-mini, RAGAS, Docker, GitHub Actions
 
+🔗 [GitHub Repo](https://github.com/komalpreet10/Amazon_Product_Query_Assistant)
+
 Product search and recommendation system built on **112,000+ Amazon products** and **701,000+ customer reviews** from the Amazon Reviews 2023 All\_Beauty dataset.
 
 - Implemented **hybrid retrieval** combining BM25 sparse search and semantic dense search via **FAISS**, fused using Reciprocal Rank Fusion (RRF) for improved ranking
@@ -47,20 +51,11 @@ Product search and recommendation system built on **112,000+ Amazon products** a
 - Evaluated retrieval and generation quality using **RAGAS** (faithfulness, answer relevancy) and standard IR metrics (precision@k, recall@k, NDCG)
 - Containerized the application using **Docker** and automated testing and deployment via **GitHub Actions CI/CD**
 
----
-
-### 📈 M5 Retail Sales Forecasting
-**Tools:** Python, PySpark, LightGBM, Optuna, pandas, NumPy
-
-Demand forecasting pipeline built on the **M5 Forecasting competition dataset** — 58.3M rows across 30,490 product-store combinations.
-
-- Engineered **48 features** including lag features, rolling statistics, calendar effects, and price elasticity signals; optimized memory usage from ~18–24GB to **~7.3GB** via dtype downcasting
-- Trained a **LightGBM** model with Tweedie objective and **Optuna** hyperparameter tuning, achieving **RMSE 1.9005** — a **14% improvement** over the naive baseline — evaluated using WRMSSE (Weighted Root Mean Squared Scaled Error)
-
----
 
 ### 🔐 Membership Inference Attacks on LLMs and VLMs
 **Tools:** Python, PyTorch, Hugging Face Transformers, CLIP
+
+🔗 [GitHub Repo](https://github.com/membership_inference_attacks)
 
 Security research project targeting fine-tuned LLMs and Vision-Language Models (VLMs) to assess privacy vulnerabilities in model training data.
 
