@@ -92,11 +92,11 @@ Security research project targeting fine-tuned LLMs and Vision-Language Models (
 
 ## 🎓 Education
 
-**University of British Columbia** — Master of Data Science (Computational Linguistics) | 90% | Jun 2026
+**University of British Columbia** — Master of Data Science (Computational Linguistics) | Jun 2026
 
-**Langara College** — Post-Degree Diploma, Data Analytics | CGPA 3.92/4.33 | Apr 2025
+**Langara College** — Post-Degree Diploma, Data Analytics | Apr 2025
 
-**Lovely Professional University** — B.Tech, Electronics & Communications Engineering | CGPA 9.2/10 | 2020
+**Lovely Professional University** — B.Tech, Electronics & Communications Engineering | 2020
 
 ---
 
