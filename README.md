@@ -55,7 +55,7 @@ Product search and recommendation system built on **112,000+ Amazon products** a
 ### 🔐 Membership Inference Attacks on LLMs and VLMs
 **Tools:** Python, PyTorch, Hugging Face Transformers, CLIP
 
-🔗 [GitHub Repo](https://github.com/membership_inference_attacks)
+🔗 [GitHub Repo](https://github.com/komalpreet10/membership_inference_attacks)
 
 Security research project targeting fine-tuned LLMs and Vision-Language Models (VLMs) to assess privacy vulnerabilities in model training data.
 
