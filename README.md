@@ -66,7 +66,7 @@ Security research project targeting fine-tuned LLMs and Vision-Language Models (
 
 ---
 
-## 🛠️ Technical Skills
+## Technical Skills
 
 | Category | Tools & Technologies |
 |---|---|
