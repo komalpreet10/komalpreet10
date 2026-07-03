@@ -39,17 +39,17 @@ End-to-end credit default prediction pipeline built on GCP, predicting the proba
 
 ---
 
-### 🛒 Amazon Product Query Assistant
-**Tools:** Python, BM25 (rank-bm25), FAISS, Sentence Transformers, OpenAI GPT-4o-mini, RAGAS, Docker, GitHub Actions
+### 🔧 Transformer From Scratch (Encoder + Decoder)
+**Tools:** Python, PyTorch
 
-🔗 [GitHub Repo](https://github.com/komalpreet10/Amazon_Product_Query_Assistant)
+🔗 [GitHub Repo](https://github.com/komalpreet10/pytorch-transformer-from-scratch)
 
-Product search and recommendation system built on **112,000+ Amazon products** and **701,000+ customer reviews** from the Amazon Reviews 2023 All\_Beauty dataset.
+Implementation of the Transformer architecture ("Attention Is All You Need") built entirely from raw PyTorch — no `nn.Transformer`, no pretrained models — to demonstrate deep architectural understanding beyond high-level library usage.
 
-- Implemented **hybrid retrieval** combining BM25 sparse search and semantic dense search via **FAISS**, fused using Reciprocal Rank Fusion (RRF) for improved ranking
-- Built a **RAG pipeline** using **GPT-4o-mini** for grounded product recommendations with input/output guardrails to prevent hallucination and off-topic responses
-- Evaluated retrieval and generation quality using **RAGAS** (faithfulness, answer relevancy) and standard IR metrics (precision@k, recall@k, NDCG)
-- Containerized the application using **Docker** and automated testing and deployment via **GitHub Actions CI/CD**
+- Implemented **multi-head self-attention**, sinusoidal **positional encoding**, and position-wise feed-forward layers from scratch, with a shared core reused across both encoder and decoder variants
+- Built an **encoder-only (BERT-style)** model with bidirectional attention for text classification on **AG News** (4-class, 120K articles), achieving **91.3% validation accuracy** with a custom word-level tokenizer built from scratch
+- Built a **decoder-only (GPT-style)** model with causal self-attention for character-level autoregressive text generation on **Tiny Shakespeare**, with a custom character-level tokenizer
+- Verified architectural correctness with 11 unit tests covering attention mechanics, causal masking (zero future-token leakage), and residual connection integrity
 
 
 ### 🔐 Membership Inference Attacks on LLMs and VLMs
@@ -64,6 +64,17 @@ Security research project targeting fine-tuned LLMs and Vision-Language Models (
 - Applied CLIP-based image-text alignment for VLM membership inference, achieving AUC 0.78
 - Conducted experiments on 50K+ samples and evaluated using ROC-AUC and TPR@FPR metrics across text and image-caption datasets
 
+### 🛒 Amazon Product Query Assistant
+**Tools:** Python, BM25 (rank-bm25), FAISS, Sentence Transformers, OpenAI GPT-4o-mini, RAGAS, Docker, GitHub Actions
+
+🔗 [GitHub Repo](https://github.com/komalpreet10/Amazon_Product_Query_Assistant)
+
+Product search and recommendation system built on **112,000+ Amazon products** and **701,000+ customer reviews** from the Amazon Reviews 2023 All\_Beauty dataset.
+
+- Implemented **hybrid retrieval** combining BM25 sparse search and semantic dense search via **FAISS**, fused using Reciprocal Rank Fusion (RRF) for improved ranking
+- Built a **RAG pipeline** using **GPT-4o-mini** for grounded product recommendations with input/output guardrails to prevent hallucination and off-topic responses
+- Evaluated retrieval and generation quality using **RAGAS** (faithfulness, answer relevancy) and standard IR metrics (precision@k, recall@k, NDCG)
+- Containerized the application using **Docker** and automated testing and deployment via **GitHub Actions CI/CD**
 ---
 
 ## Technical Skills
