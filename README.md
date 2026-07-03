@@ -76,7 +76,7 @@ Security research project targeting fine-tuned LLMs and Vision-Language Models (
 | **Data Engineering** | PySpark, Apache Airflow, Apache Beam, Dataflow, BigQuery, GCS |
 | **Cloud & MLOps** | GCP (Vertex AI, Dataproc, Pub/Sub, Memorystore), AWS (Bedrock, ECS Fargate), MLflow, Docker, CI/CD |
 | **Databases & Storage** | BigQuery, ChromaDB, Redis, PostgreSQL |
-| **Evaluation** | RAGAS, PSI, Calibration curves, IR metrics |
+| **Evaluation** | RAGAS, PSI, IR metrics |
 | **Visualization** | Tableau, Matplotlib, Seaborn |
 
 ---
