@@ -1,4 +1,4 @@
-# Hi, I'm Komalpreet 👋
+# Hi, I'm Komalpreet
 
 I'm a **Master of Data Science (Computational Linguistics)** graduate from the **University of British Columbia (UBC)**, with approximately 3 years of industry experience building data pipelines, analytics and engineering solutions.
 
