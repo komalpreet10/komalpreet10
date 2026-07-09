@@ -38,6 +38,16 @@ End-to-end credit default prediction pipeline built on GCP, predicting the proba
 - Built a three-tier real-time inference pipeline using **Redis** (Memorystore) as an online feature store, **BigQuery** as a fallback lookup, and **Vertex AI Endpoint** for model serving, with streaming feature updates via **Pub/Sub** and **Dataflow** on each statement cycle close
 
 ---
+### 🔐 Membership Inference Attacks on LLMs and VLMs
+**Tools:** Python, PyTorch, Hugging Face Transformers, CLIP
+
+🔗 [GitHub Repo](https://github.com/komalpreet10/membership_inference_attacks)
+
+Security research project targeting fine-tuned LLMs and Vision-Language Models (VLMs) to assess privacy vulnerabilities in model training data.
+
+- Investigated membership inference attacks on fine-tuned LLMs and VLMs using loss-based and entropy-based approaches
+- Conducted experiments on 50K+ samples and evaluated using ROC-AUC and TPR@FPR metrics across text and image-caption datasets
+---
 
 ### Transformer From Scratch (Encoder + Decoder)
 **Tools:** Python, PyTorch
