@@ -52,18 +52,6 @@ Implementation of the Transformer architecture ("Attention Is All You Need") bui
 - Verified architectural correctness with 11 unit tests covering attention mechanics, causal masking (zero future-token leakage), and residual connection integrity
 
 
-### 🔐 Membership Inference Attacks on LLMs and VLMs
-**Tools:** Python, PyTorch, Hugging Face Transformers, CLIP
-
-🔗 [GitHub Repo](https://github.com/komalpreet10/membership_inference_attacks)
-
-Security research project targeting fine-tuned LLMs and Vision-Language Models (VLMs) to assess privacy vulnerabilities in model training data.
-
-- Investigated membership inference attacks on fine-tuned LLMs and VLMs using loss-based and entropy-based approaches
-- Developed EM-MIAs ensemble using XGBoost combining LOSS, zlib, Min-k%, and reference model features with 5-fold CV,achieving AUC 0.83 on clinical text data
-- Applied CLIP-based image-text alignment for VLM membership inference, achieving AUC 0.78
-- Conducted experiments on 50K+ samples and evaluated using ROC-AUC and TPR@FPR metrics across text and image-caption datasets
-
 ### 🛒 Amazon Product Query Assistant
 **Tools:** Python, BM25 (rank-bm25), FAISS, Sentence Transformers, OpenAI GPT-4o-mini, RAGAS, Docker, GitHub Actions
 
