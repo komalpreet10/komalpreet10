@@ -32,10 +32,10 @@ Capstone project developed in collaboration with **BC Cancer** and **UBC**, buil
 
 End-to-end credit default prediction pipeline built on GCP, predicting the probability of customer default using anonymized behavioral credit card data from the **Kaggle AmEx competition**.
 
-•	Designed and implemented batch training and statement-cycle inference pipelines for credit default prediction on GCP, orchestrating ML workflows with Kubeflow Pipelines and enabling event-driven statement processing using Cloud Pub/Sub.
-•	Engineered 22+ behavioral, temporal, and statistical aggregations across delinquency, spend, payment, balance, and risk variables; optimized a LightGBM model via Optuna with stratified cross-validation, achieving a 0.959 ROC-AUC and 0.894 PR-AUC, and 0.808 F1-score on imbalanced data.
-•	Implemented MLflow for experiment tracking, model versioning, and artifact management; integrated SHAP for model explainability and Population Stability Index (PSI) to monitor feature drift and support ongoing model validation.	
-•	Served model predictions through Vertex AI and used Vertex AI feature store to fectch updated monthly data, enabling credit default prediction on newly received monthly statements.
+- Designed and implemented batch training and statement-cycle inference pipelines for credit default prediction on GCP, orchestrating ML workflows with Kubeflow Pipelines and enabling event-driven statement processing using Cloud Pub/Sub.
+- Engineered 22+ behavioral, temporal, and statistical aggregations across delinquency, spend, payment, balance, and risk variables; optimized a LightGBM model via Optuna with stratified cross-validation, achieving a 0.959 ROC-AUC and 0.894 PR-AUC, and 0.808 F1-score on imbalanced data.
+- Implemented MLflow for experiment tracking, model versioning, and artifact management; integrated SHAP for model explainability and Population Stability Index (PSI) to monitor feature drift and support ongoing model validation.	
+- Served model predictions through Vertex AI and used Vertex AI feature store to fectch updated monthly data, enabling credit default prediction on newly received monthly statements.
 
 
 ---
