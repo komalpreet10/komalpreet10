@@ -49,8 +49,16 @@ Compared **linear probing, LoRA, and full fine-tuning** for adapting a pretraine
 - LoRA achieved the best validation accuracy at **85.35% while training only 0.43% of model parameters**, compared with **85.09%** for full fine-tuning and **81.82%** for linear probing.
 
 ---
+### 👗 H&M Personalized Recommendation System
+**Tools:** Python, Implicit ALS, CLIP, LightGBM, Learning-to-Rank
 
+🔗 [GitHub Repo](https://github.com/komalpreet10/hm-personalized-recommendation-system)
+
+- Built an end-to-end **two-stage personalized recommendation system**, combining **implicit ALS, multimodal CLIP image/text embeddings, product metadata, and popularity-based candidate retrieval**.
+- Developed a **LightGBM LambdaRank reranker** using **collaborative, content, popularity, and retrieval signals**, with **temporal validation and mixed hard/random negative sampling** for leakage-safe offline evaluation.
+---
 ### 💳 American Express Credit Default Prediction
+
 **Tools:** Python, PySpark, Dataproc Serverless, BigQuery, Vertex AI (Pipelines, Endpoint, Model Registry, Experiments), LightGBM, XGBoost, Optuna, MLflow
 
 🔗 [GitHub Repo](https://github.com/komalpreet10/amex-credit-default-prediction)
