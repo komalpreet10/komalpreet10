@@ -37,6 +37,18 @@ Agentic analytics application that enables conversational querying of a relation
 - Exposed the agent through a **FastAPI backend** with an interactive **Streamlit chat interface**.
 
 ---
+### 🖼️ ViT Fine-Tuning on Food-101
+**Tools:** Python, PyTorch, Hugging Face Transformers, PEFT, LoRA, Torchvision
+
+🔗 [GitHub Repo](https://github.com/komalpreet10/vit-lora-food101)
+
+Compared **linear probing, LoRA, and full fine-tuning** for adapting a pretrained Vision Transformer (ViT) to the 101-class Food-101 image classification task.
+
+- Fine-tuned `google/vit-base-patch16-224` on **60,600 training images** across 101 food categories.
+- Implemented and compared **linear probing, LoRA, and full fine-tuning**, ranging from **0.09% to 100% trainable parameters**.
+- LoRA achieved the best validation accuracy at **85.35% while training only 0.43% of model parameters**, compared with **85.09%** for full fine-tuning and **81.82%** for linear probing.
+
+---
 
 ### 💳 American Express Credit Default Prediction
 **Tools:** Python, PySpark, Dataproc Serverless, BigQuery, Vertex AI (Pipelines, Endpoint, Model Registry, Experiments), LightGBM, XGBoost, Optuna, MLflow
