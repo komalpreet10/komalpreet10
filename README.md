@@ -68,22 +68,6 @@ End-to-end credit default prediction pipeline built on GCP, predicting the proba
 - Designed and implemented end-to-end batch training and batch inference pipelines on GCP for credit default prediction, integrating Dataproc Serverless for distributed feature engineering, LightGBM model training, Optuna for hyperparameter tuning and Vertex AI Batch Prediction orchestrated through Kubeflow Pipelines.
 - Engineered 22+ behavioral, temporal, and statistical aggregations across delinquency, spend, payment, balance, and risk variables; optimized a LightGBM model via Optuna with stratified cross-validation, achieving a 0.959 ROC-AUC and 0.894 PR-AUC, and 0.808 F1-score on imbalanced data.
 
----
-
-### Transformer From Scratch (Encoder + Decoder)
-**Tools:** Python, PyTorch
-
-🔗 [GitHub Repo](https://github.com/komalpreet10/pytorch-transformer-from-scratch)
-
-Implementation of the Transformer architecture ("Attention Is All You Need") built entirely from raw PyTorch.
-
-- Implemented **multi-head self-attention**, sinusoidal **positional encoding**, and position-wise feed-forward layers from scratch, with a shared core reused across both encoder and decoder variants
-- Built an **encoder-only (BERT-style)** model with bidirectional attention for text classification on **AG News** (4-class, 120K articles), achieving **91.3% validation accuracy** with a custom word-level tokenizer built from scratch
-- Built a **decoder-only (GPT-style)** model with causal self-attention for character-level autoregressive text generation on **Tiny Shakespeare**, with a custom character-level tokenizer
-- Verified architectural correctness with 11 unit tests covering attention mechanics, causal masking (zero future-token leakage), and residual connection integrity
-
----
-
 ### 🛒 Amazon Product Query Assistant
 **Tools:** Python, BM25 (rank-bm25), FAISS, Sentence Transformers, OpenAI GPT-4o-mini, RAGAS, Docker, GitHub Actions
 
