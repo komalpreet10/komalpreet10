@@ -39,7 +39,7 @@ Agentic analytics application that enables conversational querying of a relation
 ---
 
 ### 💳 American Express Credit Default Prediction
-**Tools:** Python, PySpark, Dataproc Serverless, BigQuery, Vertex AI (Pipelines, Endpoint, Model Registry, Experiments), LightGBM, XGBoost, Optuna, MLflow, Redis (Memorystore), Pub/Sub, Dataflow (Apache Beam), SHAP, GCS
+**Tools:** Python, PySpark, Dataproc Serverless, BigQuery, Vertex AI (Pipelines, Endpoint, Model Registry, Experiments), LightGBM, XGBoost, Optuna, MLflow
 
 🔗 [GitHub Repo](https://github.com/komalpreet10/amex-credit-default-prediction)
 
@@ -47,6 +47,8 @@ End-to-end credit default prediction pipeline built on GCP, predicting the proba
 
 - Designed and implemented end-to-end batch training and batch inference pipelines on GCP for credit default prediction, integrating Dataproc Serverless for distributed feature engineering, LightGBM model training, Optuna for hyperparameter tuning and Vertex AI Batch Prediction orchestrated through Kubeflow Pipelines.
 - Engineered 22+ behavioral, temporal, and statistical aggregations across delinquency, spend, payment, balance, and risk variables; optimized a LightGBM model via Optuna with stratified cross-validation, achieving a 0.959 ROC-AUC and 0.894 PR-AUC, and 0.808 F1-score on imbalanced data.
+
+---
 
 ### Transformer From Scratch (Encoder + Decoder)
 **Tools:** Python, PyTorch
