@@ -1,6 +1,6 @@
 # Hi, I'm Komalpreet
 
-I'm a **Master of Data Science (Computational Linguistics)** graduate from the **University of British Columbia (UBC)**, with approximately 3 years of industry experience building data pipelines, analytics and engineering solutions.
+I'm a **Master of Data Science (Computational Linguistics)** graduate from the **University of British Columbia (UBC)**, with ~3 years of industry experience building data pipelines, analytics and engineering solutions.
 
 Previously I worked as a **Senior Software Engineer (Data Science)** at Merkle, supporting analytics and data engineering initiatives for **The Home Depot USA**. My work spanned building distributed feature engineering pipelines, automated reporting workflows and large-scale customer analytics using Python, SQL, BigQuery, PySpark, and Airflow on GCP.
 
@@ -19,11 +19,22 @@ Capstone project developed in collaboration with **BC Cancer** and **UBC**, buil
 
 - Built a **multimodal document processing pipeline** to ingest research papers, clinical manuals, motivational interviewing transcripts, and audio/video content into a structured **ChromaDB** knowledge base with metadata filtering for efficient retrieval
 - Designed an **agentic RAG workflow**, orchestrating semantic routing, retrieval, cross-encoder reranking (ms-marco-MiniLM-L-6-v2), citation validation, conversation memory, and a 5-tier safety router.
-- Integrated **AWS Bedrock Llama** as the primary generation model with **Groq** as a fallback, and used **all-MiniLM-L6-v2** embeddings for semantic retrieval
-- Evaluated response quality using **RAGAS** (faithfulness, answer relevancy, context precision) and retrieval metrics to benchmark grounding and relevance
-- Deployed the application on **AWS ECS Fargate** via **CloudFormation** with a **Streamlit** UI and containerized CI/CD workflows
+- Integrated **AWS Bedrock Llama** as the primary generation model with **Groq** as a fallback, and used **all-MiniLM-L6-v2** embeddings for semantic retrieval.
+- Evaluated response quality using **RAGAS** (faithfulness, answer relevancy, context precision) and retrieval metrics to benchmark grounding and relevance.
+- Deployed the application on **AWS ECS Fargate** via **CloudFormation** with a **Streamlit** UI and containerized CI/CD workflows.
 
 ---
+### 🤖 Agentic Text-to-SQL
+**Tools:** Python, LangGraph, LangChain, Groq, PostgreSQL, SQLAlchemy, SQLGlot, FastAPI, Streamlit, LangSmith
+
+🔗 [GitHub Repo](https://github.com/komalpreet10/agentic-text2sql)
+
+Agentic analytics application that enables conversational querying of a relational e-commerce database using natural language.
+
+- Built a **LangGraph workflow** for question contextualization, dynamic schema selection, SQL generation, execution, and grounded natural-language answer generation.
+- Implemented **SQL validation and self-repair** using SQLGlot and database execution errors, with conditional routing and bounded retry loops for failed queries.
+- Added **conversational memory** for multi-turn analytical questions and **LangSmith tracing** for LLM and workflow observability.
+- Exposed the agent through a **FastAPI backend** with an interactive **Streamlit chat interface**.
 
 ### 💳 American Express Credit Default Prediction
 **Tools:** Python, PySpark, Dataproc Serverless, BigQuery, Vertex AI (Pipelines, Endpoint, Model Registry, Experiments), LightGBM, XGBoost, Optuna, MLflow, Redis (Memorystore), Pub/Sub, Dataflow (Apache Beam), SHAP, GCS
