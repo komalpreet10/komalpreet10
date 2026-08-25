@@ -36,6 +36,8 @@ Agentic analytics application that enables conversational querying of a relation
 - Added **conversational memory** for multi-turn analytical questions and **LangSmith tracing** for LLM and workflow observability.
 - Exposed the agent through a **FastAPI backend** with an interactive **Streamlit chat interface**.
 
+---
+
 ### 💳 American Express Credit Default Prediction
 **Tools:** Python, PySpark, Dataproc Serverless, BigQuery, Vertex AI (Pipelines, Endpoint, Model Registry, Experiments), LightGBM, XGBoost, Optuna, MLflow, Redis (Memorystore), Pub/Sub, Dataflow (Apache Beam), SHAP, GCS
 
@@ -58,6 +60,7 @@ Implementation of the Transformer architecture ("Attention Is All You Need") bui
 - Built a **decoder-only (GPT-style)** model with causal self-attention for character-level autoregressive text generation on **Tiny Shakespeare**, with a custom character-level tokenizer
 - Verified architectural correctness with 11 unit tests covering attention mechanics, causal masking (zero future-token leakage), and residual connection integrity
 
+---
 
 ### 🛒 Amazon Product Query Assistant
 **Tools:** Python, BM25 (rank-bm25), FAISS, Sentence Transformers, OpenAI GPT-4o-mini, RAGAS, Docker, GitHub Actions
