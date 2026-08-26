@@ -17,7 +17,7 @@ My interests are in **machine learning, MLOps, applied AI, and data engineering*
 
 Capstone project developed in collaboration with **BC Cancer** and **UBC**, building an AI-powered exercise coaching assistant grounded in clinical exercise oncology resources.
 
-- Built a **multimodal document processing pipeline** to ingest research papers, clinical manuals, motivational interviewing transcripts, and audio/video content into a structured **ChromaDB** knowledge base with metadata filtering for efficient retrieval
+- Built a **multimodal document processing pipeline** to ingest research papers, clinical manuals, motivational interviewing transcripts, and audio/video content into a structured **ChromaDB** knowledge base with metadata filtering for efficient retrieval.
 - Designed an **agentic RAG workflow**, orchestrating semantic routing, retrieval, cross-encoder reranking (ms-marco-MiniLM-L-6-v2), citation validation, conversation memory, and a 5-tier safety router.
 - Integrated **AWS Bedrock Llama** as the primary generation model with **Groq** as a fallback, and used **all-MiniLM-L6-v2** embeddings for semantic retrieval.
 - Evaluated response quality using **RAGAS** (faithfulness, answer relevancy, context precision) and retrieval metrics to benchmark grounding and relevance.
