@@ -85,16 +85,18 @@ Product search and recommendation system built on **112,000+ Amazon products** a
 
 ## Technical Skills
 
-| Category | Tools & Technologies |
-|---|---|
-| **Languages** | Python, SQL, R |
-| **Machine Learning** | LightGBM, XGBoost, scikit-learn, PyTorch, Optuna, SHAP |
-| **AI & NLP** | RAG, LangChain, LangGraph, ChromaDB, FAISS, Sentence Transformers, AWS Bedrock, GPT-4o-mini |
-| **Data Engineering** | PySpark, Apache Airflow, Apache Beam, Dataflow, BigQuery, GCS |
-| **Cloud & MLOps** | GCP (Vertex AI, Dataproc, Pub/Sub, Memorystore), AWS (Bedrock, ECS Fargate), MLflow, Docker, CI/CD |
-| **Databases & Storage** | BigQuery, ChromaDB, Redis, PostgreSQL |
-| **Evaluation** | RAGAS, PSI, IR metrics |
-| **Visualization** | Tableau, Matplotlib, Seaborn |
+## Technical Skills
+
+| **Category**            | **Tools & Technologies**                                                                                                              |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **Programming**         | Python, SQL, R                                                                                                                        |
+| **Machine Learning**    | Regression, Classification, Clustering, LightGBM, XGBoost, scikit-learn, PyTorch, Optuna, SHAP                                        |
+| **Statistics**          | A/B Testing, Hypothesis Testing, Statistical Inference                                                                                |
+| **Generative AI & NLP** | RAG, LangChain, LangGraph, Embeddings, Vector Databases, Hybrid Retrieval, ChromaDB, FAISS, RAGAS
+| **Data Engineering**    | PySpark, Apache Spark, Apache Airflow, Apache Beam, Dataflow, BigQuery, GCS                                                           |
+| **Cloud & MLOps**       | GCP (Bigquery, Cloud Composer, Vertex AI, Dataproc, Pub/Sub), AWS (S3, Bedrock), MLflow, Docker, GitHub, CI/CD                        |
+| **Databases & Storage** | PostgreSQL, BigQuery, Redis, ChromaDB                                                                                                 |
+| **Visualization**       | Tableau, Matplotlib, Seaborn                                                                                                          |
 
 ---
 
