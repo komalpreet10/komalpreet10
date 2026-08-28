@@ -77,10 +77,10 @@ End-to-end credit default prediction pipeline built on GCP, predicting the proba
 
 Product search and recommendation system built on **112,000+ Amazon products** and **701,000+ customer reviews** from the Amazon Reviews 2023 All\_Beauty dataset.
 
-- Implemented **hybrid retrieval** combining BM25 sparse search and semantic dense search via **FAISS**, fused using Reciprocal Rank Fusion (RRF) for improved ranking
-- Built a **RAG pipeline** using **GPT-4o-mini** for grounded product recommendations with input/output guardrails to prevent hallucination and off-topic responses
-- Evaluated retrieval and generation quality using **RAGAS** (faithfulness, answer relevancy) and standard IR metrics (precision@k, recall@k, NDCG)
-- Containerized the application using **Docker** and automated testing and deployment via **GitHub Actions CI/CD**
+- Implemented **hybrid retrieval** combining BM25 sparse search and semantic dense search via **FAISS**, fused using Reciprocal Rank Fusion (RRF) for improved ranking.
+- Built a **RAG pipeline** using **GPT-4o-mini** for grounded product recommendations with input/output guardrails to prevent hallucination and off-topic responses.
+- Evaluated retrieval and generation quality using **RAGAS** (faithfulness, answer relevancy) and standard IR metrics (precision@k, recall@k, NDCG).
+- Containerized the application using **Docker** and automated testing and deployment via **GitHub Actions CI/CD**.
 ---
 
 ## Technical Skills
