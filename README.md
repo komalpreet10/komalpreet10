@@ -8,7 +8,7 @@ I hold a **Master of Data Science (Computational Linguistics) from UBC**. My int
 
 ---
 
-## 🚀 Projects
+## Projects
 
 ### 🎗️ BC Cancer Exercise Oncology Chatbot
 
