@@ -105,7 +105,7 @@ Hybrid search and RAG system built on **112,000+ Amazon products and 701,000+ cu
 | **Generative AI & LLMs** | OpenAI, Claude, LLaMA, LangChain, LangGraph, RAG, LoRA/PEFT, Prompt Engineering, Tool Calling, Agentic Systems |
 | **NLP & Retrieval** | Transformers, Sentence Transformers, Embeddings, FAISS, ChromaDB, BM25, Hybrid Search, Reranking, RAGAS |
 | **Computer Vision** | PyTorch, Vision Transformers (ViT), CLIP, Hugging Face Transformers |
-| **Data Engineering** | PySpark, Apache Spark, Airflow, Apache Beam, Dataflow, BigQuery |
+| **Data Engineering** | PySpark, Apache Spark, Airflow, BigQuery |
 | **Cloud & MLOps** | GCP (Vertex AI, BigQuery, Dataproc, Cloud Composer), AWS (Bedrock, ECS, S3), MLflow, Docker, GitHub Actions, CI/CD |
 | **Databases** | PostgreSQL, BigQuery, Redis, ChromaDB |
 | **Statistics** | A/B Testing, Hypothesis Testing, Statistical Inference |
