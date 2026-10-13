@@ -1,10 +1,10 @@
 # Hi, I'm Komalpreet 👋
 
-I'm a **Data Scientist at the University of British Columbia (UBC)**, working on NLP, machine learning, and Generative AI applications in healthcare research.
+Data Scientist with 3 years of experience building scalable data pipelines, analytics solutions, and machine learning applications. Previously supported The Home Depot, developing data solutions on Google Cloud Platform for large-scale retail and e-commerce operations.
 
-I have 3 years of industry experience building machine learning solutions, data pipelines, and analytics systems. Previously, I worked as a **Senior Software Engineer – Data Science at Merkle**, supporting **The Home Depot USA**, where I developed large-scale data and analytics solutions using Python, SQL, BigQuery, PySpark, Airflow, and Google Cloud Platform.
+Currently working at the University of British Columbia (UBC), developing machine learning and agentic AI solutions for healthcare applications.
 
-I hold a **Master of Data Science (Computational Linguistics) from UBC**. My interests span **machine learning, Generative AI, NLP, MLOps, and data engineering**, with a focus on building reliable and scalable AI systems.
+I hold a Master of Data Science from UBC, with expertise in applied statistics, machine learning, NLP, LLMs, RAG, and production-grade AI systems.
 
 ---
 
