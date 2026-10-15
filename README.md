@@ -2,7 +2,7 @@
 
 Data Scientist with 3 years of experience building scalable data pipelines, analytics solutions, and machine learning applications. Previously supported The Home Depot, developing data solutions on Google Cloud Platform for large-scale retail and e-commerce operations.
 
-Currently working at the University of British Columbia (UBC), developing machine learning and agentic AI solutions for healthcare applications.
+Currently working as a Data Scientist at the University of British Columbia (UBC), in collaboration with BC Cancer, developing machine learning and agentic AI solutions for healthcare applications.
 
 I hold a Master of Data Science from UBC, with expertise in applied statistics, machine learning, NLP, LLMs, RAG, and production-grade AI systems.
 
